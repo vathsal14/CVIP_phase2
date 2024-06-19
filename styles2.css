@@ -1,0 +1,113 @@
+body {
+    background-color: #f0f2f5;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.jumbotron {
+    background: linear-gradient(90deg, #1c92d2, #f2fcfe);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0;
+}
+
+.container-fluid {
+    padding: 40px;
+}
+
+.searchCol {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.searchCol:hover {
+    transform: translateY(-5px);
+}
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+
+.card-body {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#currentWeather h3 {
+    display: flex;
+    align-items: center;
+}
+
+#currentWeather h3 img {
+    margin-left: 10px;
+}
+
+
+.card {
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.footer {
+    background-color: #1c92d2;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.list-group-item {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.list-group-item:hover {
+    background-color: #1c92d2;
+    color: white;
+}
+
+.low {
+    background-color: #28a745;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.moderate {
+    background-color: #ffc107;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.high, .vhigh {
+    background-color: #fd7e14;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.extreme {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}

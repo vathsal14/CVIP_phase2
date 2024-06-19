@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="styles2.css" />
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-5 text-center">Weather Dashboard</h1>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3 searchCol">
+                <h3>Search for a city:</h3>
+                <div class="input-group mb-4">
+                    <input type="text" class="form-control" id="cityInput" placeholder="City Name"
+                        aria-label="Recipients's username" aria-describedby="button-addon2" />
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-primary" type="button" id="citySearchBtn">
+                            <img src="images/search.png" alt="searchButtonSign" width="20px" />
+                        </button>
+                    </div>
+                </div>
+                <div class="list-group" id="cityList"></div>
+            </div>
+            <div class="col-9">
+                <div class="card" style="width: 100%" id="weatherContainer"></div>
+                <div id="forecastContainer"></div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer mt-auto py-3 text-center">
+        <div class="container">
+            <span class="text-muted">&copy; 2024 Copyright. All Rights Reserved.</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="script2.js"></script>
+</body>
+
+</html>
